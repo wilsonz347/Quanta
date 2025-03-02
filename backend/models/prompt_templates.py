@@ -9,12 +9,11 @@ user's question. Always:
 4. Recommend consulting a doctor for specific medical advice
 
 Context: {context}
-Chat History: {chat_history}
 Question: {question}
 
 Helpful answer:"""
 
 MEDICAL_PROMPT = PromptTemplate(
     template=MEDICAL_CHAT_TEMPLATE,
-    input_variables=["context", "chat_history", "question"]
+    input_variables=["context", "question"]
 )
