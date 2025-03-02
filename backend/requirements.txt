@@ -3,4 +3,7 @@ transformers
 torch
 faiss-cpu
 flask
+pypdf
 python-dotenv
+juypter
+pdfplumber
