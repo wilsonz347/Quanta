@@ -1,4 +1,6 @@
 langchain
-llama-cpp-python
+transformers
+torch
 faiss-cpu
 flask
+python-dotenv
