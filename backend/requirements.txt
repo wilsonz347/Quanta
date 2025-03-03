@@ -5,5 +5,8 @@ faiss-cpu
 flask
 pypdf
 python-dotenv
-juypter
-pdfplumber
+jupyter
+opencv-python
+pymupdf
+matplotlib
+numpy
