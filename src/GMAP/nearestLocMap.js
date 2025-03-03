@@ -1,81 +1,46 @@
-import React, { useState, useEffect } from "react";
-import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
+import React, { useContext, useEffect, useState } from "react";
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import { UserLocationContext } from "./userLocContext";
 
-const GOOGLE_API_KEY = "AIzaSyBvLym8BP5nhtvGGMHPrxU8A0ECfFVepQg";
-const BASE_URL = "https://maps.googleapis.com/maps/api/place";
-
-const mapContainerStyle = {
+const containerStyle = {
   width: "100%",
-  height: "500px",
+  height: "100vh",
 };
 
-const options = {
-  disableDefaultUI: true,
-  zoomControl: true,
-};
-
-function NearestClinicsMap() {
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: GOOGLE_API_KEY,
-    libraries: ["places"],
-  });
-
-  const [userLocation, setUserLocation] = useState(null);
-  const [clinics, setClinics] = useState([]);
+const GoogleMapView = () => {
+  const { userLocation } = useContext(UserLocationContext);
+  const [map, setMap] = useState(null);
+  const [apiKey, setApiKey] = useState("");
 
   useEffect(() => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const { latitude, longitude } = position.coords;
-          setUserLocation({ lat: latitude, lng: longitude });
-          fetchNearbyClinics(latitude, longitude);
-        },
-        (error) => {
-          console.error("Error getting location:", error);
-        }
-      );
+    const key = process.env.REACT_APP_GOOGLE_API_KEY;
+    if (!key) {
+      console.error("Google Maps API key is missing. Make sure it's set in .env");
     }
+    setApiKey(key);
   }, []);
 
-  const fetchNearbyClinics = async (lat, lng) => {
-    try {
-      const response = await fetch(
-        `${BASE_URL}/textsearch/json?query=clinic&location=${lat},${lng}&radius=100&key=${GOOGLE_API_KEY}`
-      );
-      const data = await response.json();
-      
-      if (data.status === "OK") {
-        setClinics(data.results);
-      } else {
-        console.error("Error fetching clinics:", data.status);
-      }
-    } catch (error) {
-      console.error("API fetch error:", error);
-    }
+  const { isLoaded, loadError } = useLoadScript({
+    googleMapsApiKey: apiKey,
+  });
+
+  const onLoadMap = (mapInstance) => {
+    setMap(mapInstance);
   };
 
-  if (!isLoaded) return <p>Loading...</p>;
+  if (loadError) return <div>Error loading map</div>;
+  if (!isLoaded) return <div>Loading Map...</div>;
 
   return (
-    <div>
-      <h3 className="text-center">Find Nearest Clinics</h3>
-      <GoogleMap
-        mapContainerStyle={mapContainerStyle}
-        center={userLocation || { lat: 0, lng: 0 }}
-        zoom={15}
-        options={options}
-      >
-        {/* User Location */}
-        {userLocation && <Marker position={userLocation} label="You" />}
-
-        {/* Nearby Clinics */}
-        {clinics.map((clinic, index) => (
-          <Marker key={index} position={clinic.geometry.location} label="🏥" />
-        ))}
-      </GoogleMap>
-    </div>
+    <GoogleMap
+      mapContainerStyle={containerStyle}
+      center={userLocation || { lat: 40.7128, lng: -74.0060 }} // Default to New York
+      zoom={15}
+      onLoad={onLoadMap}
+    >
+      {userLocation && <Marker position={userLocation} />}
+    </GoogleMap>
   );
-}
+};
 
-export default NearestClinicsMap;
+export default GoogleMapView;
