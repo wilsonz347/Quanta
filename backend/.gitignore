@@ -1,3 +1,8 @@
 .env
 .venv
 __pycache__
+
+# Vector store files
+*.faiss
+*.pkl
+vector_store/
