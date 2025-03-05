@@ -12,18 +12,30 @@ from config.config import Config
 
 
 def load_medical_data(file_path):
+    # Load the QnA knowledge base JSON file and convert it into a list of QnA pairs.
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
-    return data
+    
+    # Convert dictionary to list of QnA pairs
+    qa_pairs = []
+    for disease, description in data.items():
+        qa_pairs.append({
+            "question": f"What is {disease}?",
+            "answer": description,
+            "disease": disease
+        })
+    
+    return qa_pairs
 
 
 def create_documents_from_data(data):
+    # Convert the QnA pairs into LangChain Document objects.
     documents = []
-    for disease_name, description in data.items():
-        # Create a document with the disease name and description
+    for qa_pair in data:
+        # Create a document with the question and answer
         doc = Document(
-            page_content=f"Disease: {disease_name}\n\nInformation: {description}",
-            metadata={"disease": disease_name}
+            page_content=f"Question: {qa_pair['question']}\n\nAnswer: {qa_pair['answer']}",
+            metadata={"disease": qa_pair["disease"]}
         )
         documents.append(doc)
     return documents
