@@ -1,10 +1,11 @@
 import React from "react";
+// Remove this import since we'll render the map in Home.js instead
+// import GoogleMapWithPlaces from "../GMAP/nearestLocMap";
 
 function ChatbotInfo() {
   return (
     <div className="h-screen flex items-center justify-center bg-white">
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto p-6 md:p-12">
-        
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
             HOW CHATBOT WORKS
@@ -30,7 +31,6 @@ function ChatbotInfo() {
             className="w-72 sm:w-96 md:w-[400px] lg:w-[500px] xl:w-[590px] max-w-full"
           />
         </div>
-
       </div>
     </div>
   );
