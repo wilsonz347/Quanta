@@ -12,12 +12,15 @@ from config.config import Config
 
 
 def load_medical_data(file_path):
-    # Load the QnA knowledge base JSON file 
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
     
     qa_pairs = []
-    for disease, description in data.items():
+    for entry in data:
+        disease = entry['disease']  
+        description = entry['answer']  
+
+        # Generate the questions for each disease
         disease_questions = [
             f"What is {disease}?",
             f"What are the symptoms of {disease}?",
@@ -25,7 +28,7 @@ def load_medical_data(file_path):
             f"What are the treatments for {disease}?",
         ]
         
-        # For each disease, create a QnA pair for each question
+        # Create a QnA pair for each question
         for question in disease_questions:
             qa_pairs.append({
                 "question": question,

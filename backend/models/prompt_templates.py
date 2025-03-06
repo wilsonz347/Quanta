@@ -1,23 +1,20 @@
 from langchain.prompts import PromptTemplate
 
-MEDICAL_CHAT_TEMPLATE = """
-You are a medical information assistant powered by ClinicalBERT. You provide helpful information about diseases and medical conditions.
+template = """
+You are a helpful medical assistant providing information about medical conditions and diseases.
+Use ONLY the following retrieved information to answer the question. 
+Do NOT add any information that is not present in the retrieved information.
+Do NOT mention companies, medications, or specific treatments unless they are explicitly mentioned in the retrieved information.
+If you don't know the answer based on the retrieved information, say "I don't have enough information about that."
 
-Use the following retrieved information to answer the user's question. If the information doesn't contain the answer, say that you don't have enough information and suggest consulting a healthcare professional.
+Retrieved information: {context}
 
-Retrieved Information:
-{context}
+Question: {question}
 
-User Question: {question}
+Answer:
+"""
 
-Always include:
-1. A clear disclaimer that you're providing general information, not medical advice
-2. Information relevant to the question based on the context
-3. A recommendation to consult with a healthcare professional for specific medical concerns
-
-Your helpful response:"""
-
-MEDICAL_PROMPT = PromptTemplate(
-    template=MEDICAL_CHAT_TEMPLATE,
-    input_variables=["context", "question"]
+prompt = PromptTemplate(
+    input_variables=["context", "question"],
+    template=template
 )
