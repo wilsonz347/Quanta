@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Navbar from "./Elements/Navbar";
-import GoogleMapView from "./GMAP/nearestLocMap";
+import GoogleMapWithPlaces from "./GMAP/nearestLocMap";
 import { UserLocationContext } from "./GMAP/userLocContext";
 import "./index";
 
@@ -43,7 +43,7 @@ function App() {
         ) : (
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/nearby-clinics" element={<GoogleMapView />} />
+            <Route path="/nearby-clinics" element={<GoogleMapWithPlaces />} />
           </Routes>
         )}
       </BrowserRouter>
