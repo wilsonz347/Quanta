@@ -3,7 +3,7 @@ import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 const mapContainerStyle = {
   width: "100%",
-  height: "500px",
+  height: "100%",
 };
 
 const defaultCenter = { lat: 31.5204, lng: 74.3587 }; // Default fallback: Lahore
@@ -66,7 +66,7 @@ const GoogleMapWithPlaces = () => {
 
     const request = {
       location,
-      radius: 500, // Search within 1km
+      radius: 600, // Search within 500m
       type: ["hospital", "clinic", "pharmacy", "doctor"],
     };
 
@@ -74,7 +74,6 @@ const GoogleMapWithPlaces = () => {
 
     const processResults = (results, status, pagination) => {
       if (status === window.google.maps.places.PlacesServiceStatus.OK) {
-        // Filter out only relevant places
         const filteredResults = results.filter((place) =>
           place.types.some((type) => ["hospital", "clinic", "pharmacy", "doctor"].includes(type))
         );
@@ -108,7 +107,7 @@ const GoogleMapWithPlaces = () => {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBhgB2pF0HCEuxTDaNXHZk7p00r9MKpSCI" libraries={libraries}>
+    <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY} libraries={libraries}>
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         center={userLocation || defaultCenter}
