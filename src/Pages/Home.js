@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../Elements/Navbar";
 import ChatbotInfo from "./ChatbotInfo";
 import GoogleMapWithPlaces from "../GMAP/nearestLocMap";
+import HealthTips from "./HealthTips";
+import FAQs from "./FAQs";
 
 function Home() {
   return (
@@ -46,6 +48,8 @@ function Home() {
       </div>
       <ChatbotInfo />
       <GoogleMapWithPlaces />
+      <HealthTips />
+      <FAQs />
     </>
   );
 }
