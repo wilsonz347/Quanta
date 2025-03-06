@@ -1,1 +1,1 @@
-# Langchain & Llama-2 Setup
+# Langchain & ClinicalBERT Setup

@@ -3,10 +3,10 @@ transformers
 torch
 faiss-cpu
 flask
-pypdf
 python-dotenv
-jupyter
-opencv-python
-pymupdf
-matplotlib
-numpy
+sentence-transformers
+requests
+beautifulsoup4
+html5lib
+langchain-community
+langchain-huggingface

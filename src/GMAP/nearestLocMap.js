@@ -66,7 +66,7 @@ const GoogleMapWithPlaces = () => {
 
     const request = {
       location,
-      radius: 500, // Search within 1km
+      radius: 600, // Search within 500m
       type: ["hospital", "clinic", "pharmacy", "doctor"],
     };
 
@@ -74,7 +74,6 @@ const GoogleMapWithPlaces = () => {
 
     const processResults = (results, status, pagination) => {
       if (status === window.google.maps.places.PlacesServiceStatus.OK) {
-        // Filter out only relevant places
         const filteredResults = results.filter((place) =>
           place.types.some((type) => ["hospital", "clinic", "pharmacy", "doctor"].includes(type))
         );
@@ -109,7 +108,7 @@ const GoogleMapWithPlaces = () => {
 
   return (
     <LoadScript googleMapsApiKey="AIzaSyBhgB2pF0HCEuxTDaNXHZk7p00r9MKpSCI" libraries={libraries}>
-      <GoogleMap
+       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         center={userLocation || defaultCenter}
         zoom={19}
