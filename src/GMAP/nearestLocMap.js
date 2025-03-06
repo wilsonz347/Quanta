@@ -3,7 +3,7 @@ import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 const mapContainerStyle = {
   width: "100%",
-  height: "100%",
+  height: "500px",
 };
 
 const defaultCenter = { lat: 31.5204, lng: 74.3587 }; // Default fallback: Lahore
@@ -107,8 +107,8 @@ const GoogleMapWithPlaces = () => {
   };
 
   return (
-    <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY} libraries={libraries}>
-      <GoogleMap
+    <LoadScript googleMapsApiKey="AIzaSyBhgB2pF0HCEuxTDaNXHZk7p00r9MKpSCI" libraries={libraries}>
+       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         center={userLocation || defaultCenter}
         zoom={19}
