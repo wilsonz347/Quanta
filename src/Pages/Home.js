@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Elements/Navbar";
 import ChatbotInfo from "./ChatbotInfo";
+import GoogleMapWithPlaces from "../GMAP/nearestLocMap";
 
 function Home() {
   return (
@@ -44,6 +45,7 @@ function Home() {
         </div>
       </div>
       <ChatbotInfo />
+      <GoogleMapWithPlaces />
     </>
   );
 }
