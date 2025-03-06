@@ -2,7 +2,7 @@ import React from 'react';
 
 function FAQs() {
   return (
-    <div className="relative bg-gradient-to-b from-[#33ccff] via-[#e6f7ff] to-white px-4 py-12 rounded-t-[50px] md:rounded-t-[100px]">
+    <div className="relative bg-gradient-to-b from-[#33ccff] via-[#e6f7ff] to-white px-4 py-12  ">
       {/* Add an overlay gradient for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent rounded-t-[50px] md:rounded-t-[100px]"></div>
       

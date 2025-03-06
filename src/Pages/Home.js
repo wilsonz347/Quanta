@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../Elements/Navbar";
-import ChatbotInfo from "./ChatbotInfo";
-import GoogleMapWithPlaces from "../GMAP/nearestLocMap";
+import ChatbotInfo from "./ChatbotInfo"; 
 import HealthTips from "./HealthTips";
 import FAQs from "./FAQs";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -29,9 +29,9 @@ function Home() {
     Try it - It's free
   </button>
 
-   <button className="px-6 py-3 bg-black text-white font-semibold rounded-3xl w-full sm:w-auto">
+   <Link to="/nearby-clinics"><button className="px-6 py-3 bg-black text-white font-semibold rounded-3xl w-full sm:w-auto">
     Find Clinics
-  </button>
+  </button></Link>
 </div>
 
           </div>
@@ -46,8 +46,7 @@ function Home() {
 
         </div>
       </div>
-      <ChatbotInfo />
-      <GoogleMapWithPlaces />
+      <ChatbotInfo /> 
       <HealthTips />
       <FAQs />
     </>

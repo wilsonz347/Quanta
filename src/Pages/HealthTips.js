@@ -56,17 +56,11 @@ function HealthTips() {
             <p className="text-gray-600 text-sm">A quick guide to knowing when medical help is necessary.</p>
             <span className="text-blue-500 text-sm mt-2 inline-block">Read more →</span>
           </a>
-        </div>
+          </div>
 
-        {/* Robot Image - Positioned to the right on larger screens */}
-        <div className="hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2">
-          <img 
-            src="https://your-robot-image-url.com" 
-            alt="Health Assistant Robot" 
-            className="w-48 h-48"
-          />
-        </div>
+       
       </div>
+      
     </div>
   );
 }
