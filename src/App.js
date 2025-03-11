@@ -5,6 +5,7 @@ import Navbar from "./Elements/Navbar";
 import GoogleMapWithPlaces from "./GMAP/nearestLocMap";
 import { UserLocationContext } from "./GMAP/userLocContext";
 import "./index";
+import Chatbot from "./Chatbot/Chatbot";
 
 function App() {
   const [userLocation, setUserLocation] = useState(null);
@@ -43,6 +44,7 @@ function App() {
         ) : (
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/chatbot" element={<Chatbot />} />
             <Route path="/nearby-clinics" element={<GoogleMapWithPlaces />} />
           </Routes>
         )}

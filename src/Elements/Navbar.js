@@ -15,7 +15,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6 mx-auto">
-            <button className="px-4 py-2 rounded hover:text-gray-400">Chat with Bot</button>
+          <Link to="/chatbot"><button className="px-4 py-2 rounded hover:text-gray-400">Chat with Bot</button></Link>   
             <Link to="/nearby-clinics"><button className="px-4 py-2 rounded hover:text-gray-400">Nearby Clinics</button></Link>
             <button className="px-4 py-2 rounded hover:text-gray-400">Appointments</button>
             <button className="px-4 py-2 rounded hover:text-gray-400">About Us</button>
@@ -39,7 +39,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden flex flex-col items-center space-y-2 mt-3">
-            <button className="px-4 py-2 rounded hover:text-gray-400">Chat with Bot</button>
+           <Link to="/chatbot"><button className="px-4 py-2 rounded hover:text-gray-400">Chat with Bot</button></Link>  
             <Link to="/nearby-clinics"><button className="px-4 py-2 rounded hover:text-gray-400">Nearby Clinics</button></Link>
             <button className="px-4 py-2 rounded hover:text-gray-400">Appointments</button>
             <button className="px-4 py-2 rounded hover:text-gray-400">About Us</button>
