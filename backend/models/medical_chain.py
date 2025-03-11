@@ -44,6 +44,11 @@ def initialize_components():
             max_length=Config.MAX_TOKENS,
             temperature=Config.TEMPERATURE, 
             do_sample=True,
+            repetition_penalty=1.2,  
+            no_repeat_ngram_size=3,
+            top_p=0.92,
+            pad_token_id=Config.TOKENIZER.eos_token_id,
+            eos_token_id=Config.TOKENIZER.eos_token_id,
         )
         llm_pipeline = HuggingFacePipeline(pipeline=generator)
         print("LLM pipeline initialized.")
@@ -52,8 +57,9 @@ def initialize_components():
         qa_chain = RetrievalQA.from_chain_type(
             llm=llm_pipeline,
             chain_type="stuff", 
-            retriever=vector_store.as_retriever(search_kwargs={"k": 1}),
+            retriever=vector_store.as_retriever(search_kwargs={"k": 3}),
             chain_type_kwargs={"prompt": prompt},
+            return_source_documents=True,
         )
         print("QA chain initialized.")
     

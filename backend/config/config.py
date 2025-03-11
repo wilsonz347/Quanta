@@ -6,8 +6,8 @@ load_dotenv()
 
 class Config:
     BACKEND_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-    TOKENIZER = AutoTokenizer.from_pretrained("distilbert/distilgpt2") # Change this tokenizer
-    MODEL = AutoModelForCausalLM.from_pretrained("distilbert/distilgpt2",) # Change this model
+    TOKENIZER = AutoTokenizer.from_pretrained("medalpaca/medalpaca-7b")
+    MODEL = AutoModelForCausalLM.from_pretrained("medalpaca/medalpaca-7b")
     TEMPERATURE = float(os.getenv('TEMPERATURE', 0.3))
     MAX_TOKENS = int(os.getenv('MAX_TOKENS', 1024))
     CONTEXT_WINDOW = int(os.getenv('CONTEXT_WINDOW', 2048))
