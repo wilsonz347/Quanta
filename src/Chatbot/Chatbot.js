@@ -44,12 +44,13 @@ const Chatbot = () => {
 
       {/* Input Field */}
       <div className="p-4 bg-gray-200 flex items-center">
-        <input
+      <input
           type="text"
           className="flex-1 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
           placeholder="Type a message..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && handleSend()} // 🚀 Send on Enter key
         />
         <button
           className="ml-3 bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition"
