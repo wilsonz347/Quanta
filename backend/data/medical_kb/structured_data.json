@@ -1,6 +1,6 @@
 [
     {
-        "question": "What are allergies?",
+        "question": "What is allergies?",
         "answer": "Allergies are caused by hypersensitivity to normally harmless molecules.",
         "disease": "allergies"
     },
@@ -20,22 +20,22 @@
         "disease": "allergies"
     },
     {
-        "question": "What is Alzheimer's disease?",
+        "question": "What is alzheimers-disease?",
         "answer": "Alzheimer's disease is the most common type of dementia.",
         "disease": "alzheimers-disease"
     },
     {
-        "question": "What are the symptoms of Alzheimer's disease?",
+        "question": "What are the symptoms of alzheimers-disease?",
         "answer": "Symptoms of Alzheimer's disease include memory loss, difficulty thinking and reasoning, and problems with language. Over time, patients may experience confusion, mood swings, and difficulty performing daily tasks.",
         "disease": "alzheimers-disease"
     },
     {
-        "question": "What are the causes of Alzheimer's disease?",
+        "question": "What are the causes of alzheimers-disease?",
         "answer": "The exact cause of Alzheimer's disease is unknown, but it is associated with abnormal plaques of beta-amyloid proteins and tangled strands of proteins in the brain. These abnormalities lead to the death of nerve cells and the shrinking of the brain over time.",
         "disease": "alzheimers-disease"
     },
     {
-        "question": "What are the treatments for Alzheimer's disease?",
+        "question": "What are the treatments for alzheimers-disease?",
         "answer": "There is no cure for Alzheimer's disease, but treatments can help manage symptoms. These include medications like cholinesterase inhibitors and memantine, as well as lifestyle changes and supportive therapies.",
         "disease": "alzheimers-disease"
     },
@@ -60,184 +60,184 @@
         "disease": "asthma"
     },
     {
-        "question": "What is atopic dermatitis (eczema)?",
+        "question": "What is dermatitis?",
         "answer": "Atopic dermatitis is the most common type of eczema.",
-        "disease": "atopic-dermatitis-eczema"
+        "disease": "dermatitis"
     },
     {
-        "question": "What are the symptoms of atopic dermatitis?",
+        "question": "What are the symptoms of dermatitis?",
         "answer": "Symptoms of atopic dermatitis include red, itchy skin, red and brown blotches, and raw, swollen patches. The condition can be very painful and may lead to skin infections.",
-        "disease": "atopic-dermatitis-eczema"
+        "disease": "dermatitis"
     },
     {
-        "question": "What are the causes of atopic dermatitis?",
-        "answer": "The exact cause of atopic dermatitis is unknown, but it is believed to involve a combination of genetic and environmental factors. A mutation in the gene that encodes the Filaggrin protein is associated with the disease.",
-        "disease": "atopic-dermatitis-eczema"
+        "question": "What are the causes of dermatitis?",
+        "answer": "The exact cause of dermatitis is unknown, but it is believed to involve a combination of genetic and environmental factors. A mutation in the gene that encodes the Filaggrin protein is associated with the disease.",
+        "disease": "dermatitis"
     },
     {
-        "question": "What are the treatments for atopic dermatitis?",
-        "answer": "Treatments for atopic dermatitis include topical medications, phototherapy, immunosuppressant drugs, biologic drugs, and steroids.",
-        "disease": "atopic-dermatitis-eczema"
+        "question": "What are the treatments for dermatitis?",
+        "answer": "Treatments for dermatitis include topical medications, phototherapy, immunosuppressant drugs, biologic drugs, and steroids.",
+        "disease": "dermatitis"
     },
     {
-        "question": "What is autoimmune disease?",
+        "question": "What is autoimmune-disease?",
         "answer": "Autoimmune diseases occur when the immune system mistakenly attacks the body's own tissues.",
         "disease": "autoimmune-disease"
     },
     {
-        "question": "What are the symptoms of autoimmune diseases?",
+        "question": "What are the symptoms of autoimmune-diseases?",
         "answer": "Symptoms of autoimmune diseases vary depending on the specific condition but often include inflammation, fatigue, and damage to specific tissues or organs.",
         "disease": "autoimmune-disease"
     },
     {
-        "question": "What are the causes of autoimmune diseases?",
+        "question": "What are the causes of autoimmune-diseases?",
         "answer": "The exact causes of autoimmune diseases are unknown, but they are believed to involve a combination of genetic, environmental, and infectious factors.",
         "disease": "autoimmune-disease"
     },
     {
-        "question": "What are the treatments for autoimmune diseases?",
+        "question": "What are the treatments for autoimmune-diseases?",
         "answer": "Treatments for autoimmune diseases include immunosuppressant drugs, corticosteroids, and biologic therapies. There is no cure, but treatments can help manage symptoms.",
         "disease": "autoimmune-disease"
     },
     {
-        "question": "What is cancer immunotherapy?",
-        "answer": "Cancer immunotherapy is a treatment that uses the body's immune system to fight cancer.",
-        "disease": "cancer-immunotherapy"
+        "question": "What is cancer?",
+        "answer": "Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body.",
+        "disease": "cancer"
     },
     {
         "question": "What are the symptoms of cancer?",
         "answer": "Symptoms of cancer vary depending on the type and location of the cancer but may include unexplained weight loss, fatigue, lumps, and changes in bowel or bladder habits.",
-        "disease": "cancer-immunotherapy"
+        "disease": "cancer"
     },
     {
         "question": "What are the causes of cancer?",
         "answer": "Cancer is caused by genetic mutations that lead to uncontrolled cell growth. These mutations can be inherited or caused by environmental factors like smoking, radiation, or exposure to carcinogens.",
-        "disease": "cancer-immunotherapy"
+        "disease": "cancer"
     },
     {
         "question": "What are the treatments for cancer?",
         "answer": "Treatments for cancer include surgery, radiation therapy, chemotherapy, and immunotherapy. Immunotherapy uses the body's immune system to target and destroy cancer cells.",
-        "disease": "cancer-immunotherapy"
+        "disease": "cancer"
     },
     {
-        "question": "What is Chikungunya?",
+        "question": "What is chikungunya?",
         "answer": "Chikungunya is a viral disease caused by the Chikungunya virus (CHIKV), which is transmitted by mosquitoes.",
         "disease": "chikungunya"
     },
     {
-        "question": "What are the symptoms of Chikungunya?",
+        "question": "What are the symptoms of chikungunya?",
         "answer": "Symptoms of Chikungunya include fever, severe joint pain, muscle pain, headache, and rash. Joint pain can last for months or even years.",
         "disease": "chikungunya"
     },
     {
-        "question": "What are the causes of Chikungunya?",
+        "question": "What are the causes of chikungunya?",
         "answer": "Chikungunya is caused by the Chikungunya virus, which is transmitted to humans through the bite of infected Aedes mosquitoes.",
         "disease": "chikungunya"
     },
     {
-        "question": "What are the treatments for Chikungunya?",
+        "question": "What are the treatments for chikungunya?",
         "answer": "There is no specific treatment for Chikungunya. Management focuses on relieving symptoms with pain relievers, fluids, and rest.",
         "disease": "chikungunya"
     },
     {
-        "question": "What is Cytomegalovirus (CMV)?",
+        "question": "What is cmv?",
         "answer": "Cytomegalovirus (CMV) is a common virus that can infect people of all ages. Most people with CMV have no symptoms, but it can cause serious illness in people with weakened immune systems.",
         "disease": "cmv"
     },
     {
-        "question": "What are the symptoms of CMV?",
+        "question": "What are the symptoms of cmv?",
         "answer": "Symptoms of CMV include fever, fatigue, and swollen glands. In severe cases, it can cause pneumonia, hepatitis, or encephalitis.",
         "disease": "cmv"
     },
     {
-        "question": "What are the causes of CMV?",
+        "question": "What are the causes of cmv?",
         "answer": "CMV is caused by the cytomegalovirus, which is a member of the herpesvirus family. It spreads through bodily fluids like saliva, blood, and urine.",
         "disease": "cmv"
     },
     {
-        "question": "What are the treatments for CMV?",
+        "question": "What are the treatments for cmv?",
         "answer": "There is no cure for CMV, but antiviral medications can help manage symptoms in people with weakened immune systems.",
         "disease": "cmv"
     },
     {
-        "question": "What is COVID-19?",
+        "question": "What is covid-19?",
         "answer": "COVID-19 is a disease caused by the SARS-CoV-2 virus, which was first identified in late 2019.",
         "disease": "covid-19"
     },
     {
-        "question": "What are the symptoms of COVID-19?",
+        "question": "What are the symptoms of covid-19?",
         "answer": "Symptoms of COVID-19 include fever, cough, shortness of breath, fatigue, and loss of taste or smell. Severe cases can lead to pneumonia, acute respiratory distress, and death.",
         "disease": "covid-19"
     },
     {
-        "question": "What are the causes of COVID-19?",
+        "question": "What are the causes of covid-19?",
         "answer": "COVID-19 is caused by the SARS-CoV-2 virus, which spreads through respiratory droplets when an infected person coughs, sneezes, or talks.",
         "disease": "covid-19"
     },
     {
-        "question": "What are the treatments for COVID-19?",
+        "question": "What are the treatments for covid-19?",
         "answer": "Treatments for COVID-19 include antiviral medications, corticosteroids, and monoclonal antibodies. Vaccines are also available to prevent severe illness.",
         "disease": "covid-19"
     },
     {
-        "question": "What is dengue fever?",
+        "question": "What is dengue-fever?",
         "answer": "Dengue fever is a mosquito-borne disease caused by the dengue virus.",
-        "disease": "dengue"
+        "disease": "dengue-fever"
     },
     {
-        "question": "What are the symptoms of dengue fever?",
+        "question": "What are the symptoms of dengue-fever?",
         "answer": "Symptoms of dengue fever include high fever, severe headache, pain behind the eyes, joint and muscle pain, and rash. Severe cases can lead to dengue hemorrhagic fever or dengue shock syndrome.",
-        "disease": "dengue"
+        "disease": "dengue-fever"
     },
     {
-        "question": "What are the causes of dengue fever?",
+        "question": "What are the causes of dengue-fever?",
         "answer": "Dengue fever is caused by the dengue virus, which is transmitted to humans through the bite of infected Aedes mosquitoes.",
-        "disease": "dengue"
+        "disease": "dengue-fever"
     },
     {
-        "question": "What are the treatments for dengue fever?",
+        "question": "What are the treatments for dengue-fever?",
         "answer": "There is no specific treatment for dengue fever. Management focuses on relieving symptoms with pain relievers, fluids, and rest. Severe cases may require hospitalization.",
-        "disease": "dengue"
+        "disease": "dengue-fever"
     },
     {
-        "question": "What is Ebola?",
+        "question": "What is ebola?",
         "answer": "Ebola is a severe and often fatal disease caused by the Ebola virus.",
         "disease": "ebola"
     },
     {
-        "question": "What are the symptoms of Ebola?",
+        "question": "What are the symptoms of ebola?",
         "answer": "Symptoms of Ebola include fever, severe headache, muscle pain, weakness, diarrhea, vomiting, and unexplained bleeding or bruising.",
         "disease": "ebola"
     },
     {
-        "question": "What are the causes of Ebola?",
+        "question": "What are the causes of ebola?",
         "answer": "Ebola is caused by the Ebola virus, which is transmitted to humans through contact with infected animals or bodily fluids of infected people.",
         "disease": "ebola"
     },
     {
-        "question": "What are the treatments for Ebola?",
+        "question": "What are the treatments for ebola?",
         "answer": "There is no specific treatment for Ebola, but supportive care, such as fluids and electrolytes, can improve survival. Experimental treatments and vaccines are also being developed.",
         "disease": "ebola"
     },
     {
-        "question": "What is Epstein-Barr virus (EBV)?",
+        "question": "What is EBV?",
         "answer": "Epstein-Barr virus (EBV) is a common virus that causes infectious mononucleosis (mono) and is associated with certain cancers.",
-        "disease": "epstein-barr-virus"
+        "disease": "EBV"
     },
     {
         "question": "What are the symptoms of EBV?",
         "answer": "Symptoms of EBV include fever, sore throat, swollen lymph nodes, and fatigue. In some cases, it can lead to more severe conditions like lymphoma or multiple sclerosis.",
-        "disease": "epstein-barr-virus"
+        "disease": "EBV"
     },
     {
         "question": "What are the causes of EBV?",
         "answer": "EBV is caused by the Epstein-Barr virus, which spreads through bodily fluids like saliva.",
-        "disease": "epstein-barr-virus"
+        "disease": "EBV"
     },
     {
         "question": "What are the treatments for EBV?",
         "answer": "There is no specific treatment for EBV. Management focuses on relieving symptoms with rest, fluids, and pain relievers.",
-        "disease": "epstein-barr-virus"
+        "disease": "EBV"
     },
     {
         "question": "What is fibrosis?",
@@ -260,22 +260,22 @@
         "disease": "fibrosis"
     },
     {
-        "question": "What are food allergies?",
+        "question": "What are food-allergies?",
         "answer": "Food allergies occur when the immune system overreacts to certain foods, causing symptoms ranging from mild itching to life-threatening anaphylaxis.",
         "disease": "food-allergies"
     },
     {
-        "question": "What are the symptoms of food allergies?",
+        "question": "What are the symptoms of food-allergies?",
         "answer": "Symptoms of food allergies include itching, hives, swelling, vomiting, diarrhea, and in severe cases, anaphylaxis.",
         "disease": "food-allergies"
     },
     {
-        "question": "What are the causes of food allergies?",
+        "question": "What are the causes of food-allergies?",
         "answer": "Food allergies are caused by an immune system overreaction to proteins in certain foods, such as peanuts, tree nuts, milk, and shellfish.",
         "disease": "food-allergies"
     },
     {
-        "question": "What are the treatments for food allergies?",
+        "question": "What are the treatments for food-allergies?",
         "answer": "Treatments for food allergies include avoiding trigger foods, carrying epinephrine for emergencies, and undergoing oral immunotherapy to desensitize the immune system.",
         "disease": "food-allergies"
     },
@@ -302,100 +302,100 @@
     {
         "question": "What is HIV?",
         "answer": "HIV (Human Immunodeficiency Virus) is a virus that attacks the immune system, specifically targeting T cells, which are crucial for fighting infections.",
-        "disease": "hiv-vaccine"
+        "disease": "HIV"
     },
     {
         "question": "What are the symptoms of HIV?",
         "answer": "Early symptoms of HIV include fever, fatigue, swollen lymph nodes, and sore throat. As the disease progresses, it can lead to severe immune deficiency and opportunistic infections.",
-        "disease": "hiv-vaccine"
+        "disease": "HIV"
     },
     {
         "question": "What are the causes of HIV?",
         "answer": "HIV is caused by the Human Immunodeficiency Virus, which is transmitted through unprotected sexual contact, sharing needles, or from mother to child during childbirth or breastfeeding.",
-        "disease": "hiv-vaccine"
+        "disease": "HIV"
     },
     {
         "question": "What are the treatments for HIV?",
         "answer": "HIV is treated with antiretroviral therapy (ART), which helps control the virus and prevent progression to AIDS. There is no cure, but ART can allow people with HIV to live long, healthy lives.",
-        "disease": "hiv-vaccine"
+        "disease": "HIV"
     },
     {
-        "question": "What is inflammatory bowel disease (IBD)?",
+        "question": "What is IBD?",
         "answer": "Inflammatory bowel disease (IBD) is a group of disorders that cause chronic inflammation in the digestive tract, including Crohn's disease and ulcerative colitis.",
-        "disease": "inflammatory-bowel-disease"
+        "disease": "IBD"
     },
     {
         "question": "What are the symptoms of IBD?",
         "answer": "Symptoms of IBD include diarrhea, abdominal pain, weight loss, fatigue, and rectal bleeding. The severity of symptoms can vary over time.",
-        "disease": "inflammatory-bowel-disease"
+        "disease": "IBD"
     },
     {
         "question": "What are the causes of IBD?",
         "answer": "The exact cause of IBD is unknown, but it is believed to involve a combination of genetic, environmental, and immune system factors.",
-        "disease": "inflammatory-bowel-disease"
+        "disease": "IBD"
     },
     {
         "question": "What are the treatments for IBD?",
         "answer": "Treatments for IBD include anti-inflammatory medications, immunosuppressants, biologics, and in severe cases, surgery to remove damaged portions of the digestive tract.",
-        "disease": "inflammatory-bowel-disease"
+        "disease": "IBD"
     },
     {
-        "question": "What is Japanese encephalitis?",
+        "question": "What is japanese-encephalitis?",
         "answer": "Japanese encephalitis is a viral infection that causes inflammation of the brain and is transmitted by mosquitoes.",
         "disease": "japanese-encephalitis"
     },
     {
-        "question": "What are the symptoms of Japanese encephalitis?",
+        "question": "What are the symptoms of japanese-encephalitis?",
         "answer": "Symptoms of Japanese encephalitis include fever, headache, vomiting, confusion, and in severe cases, seizures, paralysis, and coma.",
         "disease": "japanese-encephalitis"
     },
     {
-        "question": "What are the causes of Japanese encephalitis?",
+        "question": "What are the causes of japanese-encephalitis?",
         "answer": "Japanese encephalitis is caused by the Japanese encephalitis virus, which is transmitted to humans through the bite of infected Culex mosquitoes.",
         "disease": "japanese-encephalitis"
     },
     {
-        "question": "What are the treatments for Japanese encephalitis?",
+        "question": "What are the treatments for japanese-encephalitis?",
         "answer": "There is no specific treatment for Japanese encephalitis. Management focuses on relieving symptoms and providing supportive care, such as fluids and pain relief.",
         "disease": "japanese-encephalitis"
     },
     {
-        "question": "What is Lassa fever?",
+        "question": "What is lassa-fever?",
         "answer": "Lassa fever is a viral hemorrhagic fever caused by the Lassa virus, which is endemic to West Africa.",
         "disease": "lassa-fever"
     },
     {
-        "question": "What are the symptoms of Lassa fever?",
+        "question": "What are the symptoms of lassa-fever?",
         "answer": "Symptoms of Lassa fever include fever, sore throat, muscle pain, chest pain, and in severe cases, bleeding, shock, and multi-organ failure.",
         "disease": "lassa-fever"
     },
     {
-        "question": "What are the causes of Lassa fever?",
+        "question": "What are the causes of lassa-fever?",
         "answer": "Lassa fever is caused by the Lassa virus, which is transmitted to humans through contact with infected rodents or their droppings.",
         "disease": "lassa-fever"
     },
     {
-        "question": "What are the treatments for Lassa fever?",
+        "question": "What are the treatments for lassa-fever?",
         "answer": "The antiviral drug ribavirin is used to treat Lassa fever, especially if administered early in the course of the illness. Supportive care, such as fluids and electrolytes, is also important.",
         "disease": "lassa-fever"
     },
     {
-        "question": "What is lung cancer?",
+        "question": "What is lung-cancer?",
         "answer": "Lung cancer is a type of cancer that begins in the lungs and is the leading cause of cancer deaths worldwide.",
         "disease": "lung-cancer"
     },
     {
-        "question": "What are the symptoms of lung cancer?",
+        "question": "What are the symptoms of lung-cancer?",
         "answer": "Symptoms of lung cancer include persistent cough, chest pain, shortness of breath, coughing up blood, and unexplained weight loss.",
         "disease": "lung-cancer"
     },
     {
-        "question": "What are the causes of lung cancer?",
+        "question": "What are the causes of lung-cancer?",
         "answer": "The primary cause of lung cancer is smoking, but it can also be caused by exposure to secondhand smoke, radon gas, asbestos, and other carcinogens.",
         "disease": "lung-cancer"
     },
     {
-        "question": "What are the treatments for lung cancer?",
+        "question": "What are the treatments for lung-cancer?",
         "answer": "Treatments for lung cancer include surgery, radiation therapy, chemotherapy, targeted therapy, and immunotherapy. The choice of treatment depends on the type and stage of the cancer.",
         "disease": "lung-cancer"
     },
@@ -420,7 +420,7 @@
         "disease": "measles"
     },
     {
-        "question": "What is mpox (monkeypox)?",
+        "question": "What is mpox?",
         "answer": "Mpox (formerly called monkeypox) is a viral disease that causes a rash and flu-like symptoms.",
         "disease": "mpox"
     },
@@ -440,107 +440,107 @@
         "disease": "mpox"
     },
     {
-        "question": "What is Nipah virus?",
+        "question": "What is nipah?",
         "answer": "Nipah virus is a zoonotic virus that can cause severe respiratory and neurological symptoms in humans.",
         "disease": "nipah"
     },
     {
-        "question": "What are the symptoms of Nipah virus?",
+        "question": "What are the symptoms of nipah?",
         "answer": "Symptoms of Nipah virus include fever, headache, dizziness, nausea, and in severe cases, encephalitis (brain inflammation) and coma.",
         "disease": "nipah"
     },
     {
-        "question": "What are the causes of Nipah virus?",
+        "question": "What are the causes of nipah?",
         "answer": "Nipah virus is transmitted to humans through contact with infected animals, such as bats or pigs, or through consumption of contaminated food.",
         "disease": "nipah"
     },
     {
-        "question": "What are the treatments for Nipah virus?",
+        "question": "What are the treatments for nipah?",
         "answer": "There is no specific treatment for Nipah virus. Management focuses on supportive care, such as fluids and respiratory support. Experimental treatments like ribavirin have shown limited effectiveness.",
         "disease": "nipah"
     },
     {
-        "question": "What is Parkinson's disease?",
+        "question": "What is parkinsons-disease?",
         "answer": "Parkinson's disease is a neurodegenerative disorder that affects movement, causing tremors, stiffness, and difficulty with balance and coordination.",
         "disease": "parkinsons-disease"
     },
     {
-        "question": "What are the symptoms of Parkinson's disease?",
+        "question": "What are the symptoms of parkinsons-disease?",
         "answer": "Symptoms of Parkinson's disease include tremors, muscle stiffness, slow movement, balance problems, and in later stages, cognitive decline and behavioral changes.",
         "disease": "parkinsons-disease"
     },
     {
-        "question": "What are the causes of Parkinson's disease?",
+        "question": "What are the causes of parkinsons-disease?",
         "answer": "The exact cause of Parkinson's disease is unknown, but it is believed to involve a combination of genetic and environmental factors. Loss of dopamine-producing neurons in the brain is a key feature.",
         "disease": "parkinsons-disease"
     },
     {
-        "question": "What are the treatments for Parkinson's disease?",
+        "question": "What are the treatments for parkinsons-disease?",
         "answer": "Treatments for Parkinson's disease include medications like levodopa to increase dopamine levels, physical therapy, and in some cases, deep brain stimulation surgery.",
         "disease": "parkinsons-disease"
     },
     {
-        "question": "What is Powassan virus?",
+        "question": "What is powassan-virus?",
         "answer": "Powassan virus is a tick-borne virus that can cause severe neurological symptoms, including encephalitis and meningitis.",
         "disease": "powassan-virus"
     },
     {
-        "question": "What are the symptoms of Powassan virus?",
+        "question": "What are the symptoms of powassan-virus?",
         "answer": "Symptoms of Powassan virus include fever, headache, vomiting, weakness, and in severe cases, confusion, seizures, and memory problems.",
         "disease": "powassan-virus"
     },
     {
-        "question": "What are the causes of Powassan virus?",
+        "question": "What are the causes of powassan-virus?",
         "answer": "Powassan virus is transmitted to humans through the bite of infected ticks, primarily in the northeastern United States and the Great Lakes region.",
         "disease": "powassan-virus"
     },
     {
-        "question": "What are the treatments for Powassan virus?",
+        "question": "What are the treatments for powassan-virus?",
         "answer": "There is no specific treatment for Powassan virus. Management focuses on supportive care, such as fluids, pain relief, and respiratory support.",
         "disease": "powassan-virus"
     },
     {
-        "question": "What are seasonal allergies?",
+        "question": "What are seasonal-allergies?",
         "answer": "Seasonal allergies, also known as hay fever, are allergic reactions triggered by pollen from trees, grasses, and weeds.",
         "disease": "seasonal-allergies"
     },
     {
-        "question": "What are the symptoms of seasonal allergies?",
+        "question": "What are the symptoms of seasonal-allergies?",
         "answer": "Symptoms of seasonal allergies include sneezing, runny nose, itchy eyes, and congestion. These symptoms are most common during spring and fall.",
         "disease": "seasonal-allergies"
     },
     {
-        "question": "What are the causes of seasonal allergies?",
+        "question": "What are the causes of seasonal-allergies?",
         "answer": "Seasonal allergies are caused by an immune system overreaction to pollen from trees, grasses, and weeds.",
         "disease": "seasonal-allergies"
     },
     {
-        "question": "What are the treatments for seasonal allergies?",
+        "question": "What are the treatments for seasonal-allergies?",
         "answer": "Treatments for seasonal allergies include antihistamines, nasal sprays, and allergy shots (immunotherapy). Avoiding pollen exposure can also help reduce symptoms.",
         "disease": "seasonal-allergies"
     },
     {
-        "question": "What is strep throat?",
+        "question": "What is strep-throat?",
         "answer": "Strep throat is a bacterial infection caused by Streptococcus pyogenes, which leads to a sore throat and difficulty swallowing.",
         "disease": "strep-throat"
     },
     {
-        "question": "What are the symptoms of strep throat?",
+        "question": "What are the symptoms of strep-throat?",
         "answer": "Symptoms of strep throat include sore throat, fever, swollen lymph nodes, and white patches on the tonsils.",
         "disease": "strep-throat"
     },
     {
-        "question": "What are the causes of strep throat?",
+        "question": "What are the causes of strep-throat?",
         "answer": "Strep throat is caused by the bacterium Streptococcus pyogenes, which spreads through respiratory droplets when an infected person coughs or sneezes.",
         "disease": "strep-throat"
     },
     {
-        "question": "What are the treatments for strep throat?",
+        "question": "What are the treatments for strep-throat?",
         "answer": "Strep throat is treated with antibiotics, such as penicillin or amoxicillin, to eliminate the bacteria and prevent complications like rheumatic fever.",
         "disease": "strep-throat"
     },
     {
-        "question": "What is tuberculosis (TB)?",
+        "question": "What is tuberculosis?",
         "answer": "Tuberculosis (TB) is a bacterial infection that primarily affects the lungs but can also affect other parts of the body.",
         "disease": "tuberculosis"
     },
@@ -560,22 +560,22 @@
         "disease": "tuberculosis"
     },
     {
-        "question": "What is type 1 diabetes?",
+        "question": "What is type-1-diabetes?",
         "answer": "Type 1 diabetes is an autoimmune disease in which the immune system attacks and destroys insulin-producing cells in the pancreas.",
         "disease": "type-1-diabetes"
     },
     {
-        "question": "What are the symptoms of type 1 diabetes?",
+        "question": "What are the symptoms of type-1-diabetes?",
         "answer": "Symptoms of type 1 diabetes include excessive thirst, frequent urination, extreme hunger, weight loss, and fatigue.",
         "disease": "type-1-diabetes"
     },
     {
-        "question": "What are the causes of type 1 diabetes?",
+        "question": "What are the causes of type-1-diabetes?",
         "answer": "The exact cause of type 1 diabetes is unknown, but it is believed to involve a combination of genetic and environmental factors that trigger an autoimmune response.",
         "disease": "type-1-diabetes"
     },
     {
-        "question": "What are the treatments for type 1 diabetes?",
+        "question": "What are the treatments for type-1-diabetes?",
         "answer": "Type 1 diabetes is managed with insulin therapy, blood sugar monitoring, and lifestyle changes like diet and exercise.",
         "disease": "type-1-diabetes"
     },
@@ -600,62 +600,62 @@
         "disease": "vasculitis"
     },
     {
-        "question": "What is whooping cough (pertussis)?",
+        "question": "What is whooping-cough?",
         "answer": "Whooping cough is a highly contagious bacterial infection that causes severe coughing fits, often accompanied by a 'whooping' sound when breathing in.",
         "disease": "whooping-cough"
     },
     {
-        "question": "What are the symptoms of whooping cough?",
+        "question": "What are the symptoms of whooping-cough?",
         "answer": "Symptoms of whooping cough include severe coughing fits, a 'whooping' sound when breathing in, vomiting, and exhaustion.",
         "disease": "whooping-cough"
     },
     {
-        "question": "What are the causes of whooping cough?",
+        "question": "What are the causes of whooping-cough?",
         "answer": "Whooping cough is caused by the bacterium Bordetella pertussis, which spreads through respiratory droplets when an infected person coughs or sneezes.",
         "disease": "whooping-cough"
     },
     {
-        "question": "What are the treatments for whooping cough?",
+        "question": "What are the treatments for whooping-cough?",
         "answer": "Whooping cough is treated with antibiotics, such as azithromycin or erythromycin. Vaccination is the best way to prevent the disease.",
         "disease": "whooping-cough"
     },
     {
-        "question": "What is yellow fever?",
+        "question": "What is yellow-fever?",
         "answer": "Yellow fever is a viral hemorrhagic disease transmitted by mosquitoes, primarily in tropical regions of Africa and South America.",
         "disease": "yellow-fever"
     },
     {
-        "question": "What are the symptoms of yellow fever?",
+        "question": "What are the symptoms of yellow-fever?",
         "answer": "Symptoms of yellow fever include fever, headache, muscle pain, nausea, and in severe cases, jaundice, bleeding, and organ failure.",
         "disease": "yellow-fever"
     },
     {
-        "question": "What are the causes of yellow fever?",
+        "question": "What are the causes of yellow-fever?",
         "answer": "Yellow fever is caused by the yellow fever virus, which is transmitted to humans through the bite of infected Aedes or Haemagogus mosquitoes.",
         "disease": "yellow-fever"
     },
     {
-        "question": "What are the treatments for yellow fever?",
+        "question": "What are the treatments for yellow-fever?",
         "answer": "There is no specific treatment for yellow fever. Management focuses on supportive care, such as fluids and pain relief. Vaccination is the best way to prevent the disease.",
         "disease": "yellow-fever"
     },
     {
-        "question": "What is Zika virus?",
+        "question": "What is zika?",
         "answer": "Zika virus is a mosquito-borne virus that can cause mild symptoms in adults but severe birth defects in babies born to infected mothers.",
         "disease": "zika"
     },
     {
-        "question": "What are the symptoms of Zika virus?",
+        "question": "What are the symptoms of zika?",
         "answer": "Symptoms of Zika virus include fever, rash, joint pain, and conjunctivitis. In pregnant women, it can cause microcephaly and other birth defects in babies.",
         "disease": "zika"
     },
     {
-        "question": "What are the causes of Zika virus?",
+        "question": "What are the causes of zika?",
         "answer": "Zika virus is transmitted to humans through the bite of infected Aedes mosquitoes. It can also be transmitted through sexual contact or from mother to fetus during pregnancy.",
         "disease": "zika"
     },
     {
-        "question": "What are the treatments for Zika virus?",
+        "question": "What are the treatments for zika?",
         "answer": "There is no specific treatment for Zika virus. Management focuses on relieving symptoms with rest, fluids, and pain relievers. Pregnant women should avoid areas with Zika outbreaks.",
         "disease": "zika"
     }

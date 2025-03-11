@@ -12,18 +12,29 @@ from config.config import Config
 
 
 def load_medical_data(file_path):
-    # Load the QnA knowledge base JSON file and convert it into a list of QnA pairs.
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
     
-    # Convert dictionary to list of QnA pairs
     qa_pairs = []
-    for disease, description in data.items():
-        qa_pairs.append({
-            "question": f"What is {disease}?",
-            "answer": description,
-            "disease": disease
-        })
+    for entry in data:
+        disease = entry['disease']  
+        description = entry['answer']  
+
+        # Generate the questions for each disease
+        disease_questions = [
+            f"What is {disease}?",
+            f"What are the symptoms of {disease}?",
+            f"What are the causes of {disease}?",
+            f"What are the treatments for {disease}?",
+        ]
+        
+        # Create a QnA pair for each question
+        for question in disease_questions:
+            qa_pairs.append({
+                "question": question,
+                "answer": description,  
+                "disease": disease
+            })
     
     return qa_pairs
 
@@ -43,13 +54,13 @@ def create_documents_from_data(data):
 
 def initialize_vector():
     # Knowledge base and vector store paths
-    kb_path = os.path.join(backend_dir, 'data', 'medical_kb', 'disease_data.json')
+    kb_path = os.path.join(backend_dir, 'data', 'medical_kb', 'structured_data.json')
     vector_store_path = os.path.join(backend_dir, 'data', 'vector_store')
     
     # Check if the vector store already exists
     if os.path.exists(os.path.join(vector_store_path, 'index.faiss')):
         embeddings = HuggingFaceEmbeddings(model_name="pritamdeka/S-PubMedBert-MS-MARCO")
-        vector_store = FAISS.load_local(vector_store_path, embeddings)
+        vector_store = FAISS.load_local(vector_store_path, embeddings, allow_dangerous_deserialization=True)
         return vector_store
     
     medical_data = load_medical_data(kb_path)
